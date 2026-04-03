@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#f8f5f2];
+  }
+}
+
+.prose {
+  @apply text-inherit;
+}
+
+.prose p {
+  @apply my-1;
+}
+
+.prose strong {
+  @apply text-inherit font-bold;
+}
+
+.prose ul {
+  @apply my-2 list-disc list-inside;
+}
+
+.prose li {
+  @apply my-0.5;
+}
